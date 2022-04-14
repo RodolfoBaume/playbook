@@ -75,4 +75,6 @@ const explorers = [
    const explorers_with_js = explorers.filter(my_explorer_in_list => my_explorer_in_list.stack.includes("js"))
    console.log(explorers_with_js)
 
-   
+   console.log("Ejercicio 2.5 'Find")
+   const first_explorer_in_CDMX = explorers.find(my_explorer_in_list => my_explorer_in_list.city === "CDMX")
+   console.log(first_explorer_in_CDMX)
