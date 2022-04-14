@@ -64,4 +64,10 @@ const explorers = [
    console.log("Ejercicio 2.1")
    explorers.forEach( explorer => console.log(explorer.name))
 
+   console.log("Ejercicio 2.2")
+   explorers.forEach(item => console.log(item.stack) )
+
+   console.log("Ejercicio 2.3 'Map'")
+   const explorers_stacks = explorers.map(my_explorer_in_list => my_explorer_in_list.stack)
+   console.log(explorers_stacks)
 
