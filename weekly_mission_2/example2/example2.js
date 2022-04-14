@@ -71,3 +71,8 @@ const explorers = [
    const explorers_stacks = explorers.map(my_explorer_in_list => my_explorer_in_list.stack)
    console.log(explorers_stacks)
 
+   console.log("Ejercicio 2.4 'Filter'")
+   const explorers_with_js = explorers.filter(my_explorer_in_list => my_explorer_in_list.stack.includes("js"))
+   console.log(explorers_with_js)
+
+   
